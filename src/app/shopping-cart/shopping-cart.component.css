@@ -1,0 +1,13 @@
+table thead {
+  background-color: black; /* Black background */
+}
+
+table thead th {
+  color: white;            /* White text */
+  font-weight: 600;        /* Make it bold/heavier */
+}
+
+/* Optional: nicer look for table rows on hover or zebra stripes */
+table tbody tr:nth-child(even) {
+  background-color: #f0f0f0;
+}

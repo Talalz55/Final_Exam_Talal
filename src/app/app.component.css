@@ -1,0 +1,42 @@
+
+.outer-container {
+  background-color: #c8e6ff; /* Light blue background */
+  border: 3px solid blue;   /* Thick blue border */
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px; /* Limit max width if you prefer */
+  margin: 0 auto;    /* Center the outer container */
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.content-row {
+  display: flex;
+  gap: 20px; /* space between the two sections */
+}
+
+.product-list-section {
+  flex: 1;
+  border: 2px solid blue;
+  padding: 10px;
+  background-color: #d7edff; /* Slightly different shade if you like */
+}
+
+.shopping-cart-section {
+  flex: 2;
+  border: 2px solid blue;
+  padding: 10px;
+  background-color: #d7edff;
+}
+
+.student-info {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px; /* Larger font */
+  font-weight: bold;
+}
